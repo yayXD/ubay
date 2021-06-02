@@ -1,0 +1,34 @@
+body{
+    background-color: #beb0d0;
+    font: 15px Tahoma, sans-serif;
+}
+header{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #1e003c;
+    border-bottom-color: #000000;
+    border-bottom-width: 10px;
+    padding-top: 20px;
+}
+#img{
+    color: #ffffff;
+    font: 20px Tahoma, sans-serif;
+}
+section {
+    width:60%;
+    background-color: #ffffff;
+    border-left: 10px;
+    margin-left: 0px;
+    height: 100%;
+    float: left;
+}
+aside{
+    width:60%;
+    float: left;
+}
+#typ{
+    color: #1e003c;
+    font: 20px Tahoma, sans-serif;
+}

@@ -1,0 +1,354 @@
+body{
+    background-color: #beb0d0;
+    font: 15px Tahoma, sans-serif;
+}
+
+header{
+     color: #ffffff;
+     text-align: center;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     background-color: #1e003c;
+     border-bottom-color: #000000;
+     border-bottom-width: 10px;
+     padding-top: 20px;
+ }
+
+.label_img_type{
+    color: #ffffff;
+    font: 20px Tahoma, sans-serif;
+}
+
+.but{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font: 20px Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+.search{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.ref {
+    width:15%;
+    background-color: #ffffff;
+    border-left: 10px;
+    margin-left: 0px;
+    height: 100%;
+    float: left;
+}
+
+section {
+    width:15%;
+    background-color: #ffffff;
+    border-left: 10px;
+    margin-left: 0px;
+    height: 100%;
+    float: left;
+}
+
+aside{
+    width:70%;
+    float: left;
+}
+
+.butt{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: transparent; /* Серый цвет фона */
+    color: #1e003c;
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    border-color: transparent;
+    font: 20px Tahoma, sans-serif;
+}
+
+#openModal:target {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #1e003c;
+}
+
+section p {
+    text-decoration: none;
+    padding: 2px 1px 0;
+    outline: none;
+    color: #1e003c;
+    font-size: 20px;
+    text-align: center;
+}
+
+#openModal{
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background:  #beb0d0;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: -moz-linear-gradient(#beb0d0, #1e003c);
+    background: -webkit-linear-gradient(#beb0d0, #1e003c);
+    background: -o-linear-gradient(#beb0d0, #1e003c);
+}
+
+#openModal2{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background:  #beb0d0;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: -moz-linear-gradient(#beb0d0, #1e003c);
+    background: -webkit-linear-gradient(#beb0d0, #1e003c);
+    background: -o-linear-gradient(#beb0d0, #1e003c);
+}
+
+#openModal3{
+    width: 600px;
+    height:700px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background:  #beb0d0;
+    color: #ffffff;
+    /*display: none;*/
+    /*позиционируем и центрируем*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: -moz-linear-gradient(#beb0d0, #1e003c);
+    background: -webkit-linear-gradient(#beb0d0, #1e003c);
+    background: -o-linear-gradient(#beb0d0, #1e003c);
+}
+
+#openModal4{
+    width: 600px;
+    height:350px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background:  #beb0d0;
+    color: #ffffff;
+    /*display: none;*/
+    /*позиционируем и центрируем*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: -moz-linear-gradient(#beb0d0, #1e003c);
+    background: -webkit-linear-gradient(#beb0d0, #1e003c);
+    background: -o-linear-gradient(#beb0d0, #1e003c);
+}
+
+#openModal4{
+    width: 400px;
+    height:450px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background:  #beb0d0;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: -moz-linear-gradient(#beb0d0, #1e003c);
+    background: -webkit-linear-gradient(#beb0d0, #1e003c);
+    background: -o-linear-gradient(#beb0d0, #1e003c);
+}
+
+.close {
+    display: inline-block;
+    border: 1px solid gray;
+    color: #ffffff;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: green;
+    font-size: 14pt;
+    cursor:pointer;
+}
+
+.close:hover {
+    background: royalblue;
+}
+
+#zatemnit {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 9999;
+}
+
+#zatemnit2 {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 9999;
+}
+
+#zatemnit3 {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 9999;
+}
+
+#zatemnit4 {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 9999;
+}
+
+#zatemnit5 {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 9999;
+}
+
+#zatemnit:target {
+    display: block;
+}
+
+#zatemnit2:target {
+    display: block;
+}
+
+#zatemnit3:target {
+    display: block;
+}
+
+#zatemnit4:target {
+    display: block;
+}
+
+#zatemnit5:target {
+    display: block;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-row >label {
+    flex: 1;
+    font: 15px Tahoma, sans-serif;
+    color: #1e003c;
+    padding: .5em 1em .5em 0;
+}
+
+.form-row > input {
+    flex: 2;
+    padding: .5em 1em .5em 0;
+}
+
+#lot_in {
+    color: lightseagreen;
+}
+
+#in {
+    color: lightseagreen;
+}
+
+#check {
+    color:lightseagreen;
+}
+#password_change{
+    color: lightseagreen;
+}
+
+#win {
+    color: lightseagreen;
+}
+
+#it {
+    color: royalblue;
+}
+
+main {
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.lots {
+    width: 45%;
+    margin: 5px;
+    background-color: #beb0d0;
+    position: relative;
+    height: 215px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: yellow;
+    text-align: right;
+    width: 160px;
+    position: absolute;
+    right: 4%;
+    z-index: 3000;
+    text-shadow: 2px 2px 1px black;
+    line-height: 2rem;
+    padding-top: 0.3rem;
+}
+
+#img1 {
+    width: 100%;
+}
